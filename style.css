@@ -1,0 +1,148 @@
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
+.navbar {
+	background-color: #EDEDED;
+	padding: 1rem 0;
+	font-size: 1.2rem;
+}
+.navbar-brand {
+	padding: 0 15px 0 1rem;
+}
+
+#home {
+	background: url(images/white-background.jpg) no-repeat center center fixed;
+	display: table;
+	height: 92%;
+	width: 100%;
+	position: relative;
+	background-size: cover;
+}
+
+.welcome-text {
+	display: table-cell;
+	text-align: center;
+	padding-top: 10rem;
+}
+
+.welcome-text h4 {
+	font-size: 4rem;
+	font-weight: 1;
+	text-shadow: 1px 1px 5px #707070;
+	color: #2d2d2d;
+}
+.welcome-text h3 {
+	font-size: 3rem;
+	font-weight: 1;
+	text-shadow: 1px 1px 1px #e0e0e0;
+	color: #2d2d2d;
+}
+
+.padding {
+	padding: 80px 0;
+}
+
+.about_me h4{
+	font-size: 400%;
+	font-weight: 100;
+	padding-top: 13px;
+}
+
+
+
+/* Modified card styles */
+.card {
+	box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.5);
+}
+
+.card-header p {
+	margin: 0;
+}
+
+#fixed {
+	background: url(images/code3.jpg) no-repeat center center fixed;
+	display: table;
+	height: 80%;
+	width: 100%;
+	position: relative;
+	background-size: cover;
+}
+
+.jumbotron {
+	padding: 1.2rem;
+	border-radius: 0;
+	background-color: #aaaaaa;
+
+}
+
+.jumbotron h3 {
+	text-align: center;
+	vertical-align: middle;
+	color: #FFF;
+}
+
+#ceid {
+	font-size: 150%;
+	font-weight: 100;
+}
+
+.title {
+	font-size: 150%;
+}
+
+.jumbotron2 {
+	padding: 1.2rem;
+	border-radius: 0;
+	background-color: #333333;
+	margin: 0;
+}
+
+#coding {
+	background: url(images/code2.jpg) no-repeat center center fixed;
+	display: table;
+	height: 70%;
+	width: 100%;
+	background-size: cover;
+	position: relative;
+	
+}
+
+.fa-code {
+	font-size: 4rem;
+	padding-top: 2rem;
+	padding-bottom: 1rem;
+}
+
+.social a{
+	font-size: 2rem;
+	padding: 2rem;
+}
+
+.fa-facebook {
+	color: #3b5998;
+}
+
+.fa-instagram {
+	color: #517fa8;
+}
+
+.fa-github {
+	color: #211f1f;
+}
+
+.fa-twitter {
+	color: #1da1f2;
+}
+
+
+#backgr {
+	background: url(images/bck.png) no-repeat center center fixed;
+	display: table;
+	height: 60%;
+	width: 100%;
+	background-size: cover;
+	position: relative;
+}
+
