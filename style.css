@@ -62,7 +62,7 @@ html, body {
 }
 
 #fixed {
-	background: url(images/code3.jpg) no-repeat center center fixed;
+	background: url(images/code2.jpg) no-repeat center center fixed;
 	display: table;
 	height: 80%;
 	width: 100%;
@@ -100,7 +100,7 @@ html, body {
 }
 
 #coding {
-	background: url(images/code2.jpg) no-repeat center center fixed;
+	background: url(images/code.jpg) no-repeat center center fixed;
 	display: table;
 	height: 70%;
 	width: 100%;
