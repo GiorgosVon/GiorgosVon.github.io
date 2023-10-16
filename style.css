@@ -4,6 +4,7 @@ html, body {
 	scroll-behavior: smooth;
 }
 
+
 .navbar {
 	background-color: #EDEDED;
 	padding: 1rem 0;
@@ -226,29 +227,41 @@ html, body {
 	padding: 2rem;
 }
 
-.fa-facebook {
-	color: #3b5998;
-}
-
-.fa-instagram {
-	color: #517fa8;
-}
-
 .fa-github {
 	color: #211f1f;
 }
 
-.fa-twitter {
-	color: #1da1f2;
+
+
+/* Footer Section */
+
+.contact-section {
+	background-color: #f8f9fa;
+	padding: 50px 0;
+	text-align: center;
 }
 
-
-#backgr {
-	background: url(images/bck.png) no-repeat center center fixed;
-	display: table;
-	height: 60%;
-	width: 100%;
-	background-size: cover;
-	position: relative;
+.contact-heading {
+	font-size: 2em;
+	margin-bottom: 30px;
 }
 
+.contact-item {
+	margin-bottom: 20px;
+	transition: transform 0.3s;
+}
+
+.contact-item a {
+	text-decoration: none;
+	color: #000;
+	font-size: 1.2em;
+}
+
+.contact-item i {
+	margin-right: 10px;
+	font-size: 1.5em;
+}
+
+.contact-item:hover {
+	transform: scale(1.1); /* Increase size on hover */
+}

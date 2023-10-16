@@ -31,38 +31,28 @@
 <!-- body section -->
 
 <body>
-
-
-
-	<!-- Navigation -->
-	<nav class="navbar navbar-expand-md navbar-light fixed-top" role="navigation">
-		<div class="container-fluid">
-
-			<a href="#" class="navbar-brand">
-				<h2 class="font-weight-light">Giorgos Vontzalidis</h2>
-			</a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-				aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-			<div class="collapse navbar-collapse" id="navbarNav">
-				<ul class="navbar-nav ml-auto">
-					<li class="nav-item">
-						<a class="nav-link" href="#ContactMe">Contact Me</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#Skills">Skills</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#Education">Education</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#Aboutme">About Me</a>
-					</li>
-				</ul>
-			</div>
-		</div>
-	</nav>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Aboutme">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Education">Experience-Education</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Skills">Skills</a>
+                </li>
+            </ul>
+            
+        </div>
+    </nav>
 
 	<!-- background img - particles -->
 	<div id="wrapper">
@@ -76,6 +66,7 @@
 
 	<script src="particles.js"></script>
 	<script src="app.js"></script>
+
 
 
 	<div class="container-fluid">
@@ -208,10 +199,10 @@
 
 	</div>
 
-	
+
 
 	<body>
-		<div class="container mt-5">
+		<div class="container mt-5"  id="Skills">
 			<div class="row">
 				<!-- Coding Skills Section -->
 				<div class="col-md-4">
@@ -241,8 +232,8 @@
 						</ul>
 					</div>
 				</div>
-	
-				<!-- Programs Skills Section -->
+
+				<!-- Software Section -->
 				<div class="col-md-4">
 					<div class="skill-section">
 						<h2>Software</h2>
@@ -266,7 +257,7 @@
 						</ul>
 					</div>
 				</div>
-	
+
 				<!-- Other Skills Section -->
 				<div class="col-md-4">
 					<div class="skill-section">
@@ -282,38 +273,31 @@
 		</div>
 
 
+		<div class="contact-section">
+			<div class="container">
+				<h2 class="contact-heading">Contact Me</h2>
 
-
-
-
-	<div id="backgr">
-
-		<div class="container-fluid">
-			<hr class="my-4">
-		</div>
-
-		<!-- Footer -->
-		<footer id="ContactMe">
-			<h2 class="text-muted text-center">Contact Me</h2>
-			<div class="container padding ft">
 				<div class="row">
-					<div class="col-sm-6">
-						<h2 class="font-weight-light">Giorgos Vontzalidis</h2>
-						<hr class="my-4">
-						<h3 class="text-muted">Email</h3>
-						<p class="lead">gvontzalidis@hotmail.com</p>
+					<!-- Email Section -->
+					<div class="col-md-4 contact-item ">
+						<i class="fas fa-envelope"></i>
+						<a href="mailto:gvontzalidis@hotmail.com">gvontzalidis@hotmail.com</a>
 					</div>
-					<div class="col-sm-6">
-						<h2 class="font-weight-light">Address</h2>
-						<hr class="my-4">
-						<p class="lead">Patra <br> Greece</p>
+
+					<!-- Github Section -->
+					<div class="col-md-4 contact-item">
+						<i class="fab fa-github"></i>
+						<a href="https://github.com/GiorgosVon" target="_blank">GitHub</a>
+					</div>
+
+					<!-- Linkedin Section -->
+					<div class="col-md-4 contact-item">
+						<i class="fab fa-linkedin"></i>
+						<a href="https://www.linkedin.com/in/george-vontzalidis-1168361b5/" target="_blank">LinkedIn</a>
 					</div>
 				</div>
 			</div>
-			<div class="col-12">
-				<hr class="my-4">
-				<h5 class="text-center font-weight-light text-muted">&copy; Copyright Giorgos Vontzalidis.</h5>
-			</div>
-		</footer>
+		</div>
 
-</body>
+
+	</body>
