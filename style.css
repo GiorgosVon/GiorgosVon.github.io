@@ -73,7 +73,90 @@ html, body {
 	padding-top: 13px;
 }
 
+.cv-image:hover {
+	filter: brightness(80%);
+	transition: filter 0.3s ease-in-out;
+	transition: transform 0.3s;
+	transform: translateY(-5px);
+}
 
+/* Modify the Experience and Education section */
+
+.section {
+	background-color: #f8f9fa;
+	border-radius: 10px;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	transition: transform 0.3s;
+	margin-bottom: 100px;
+	padding: 20px;
+}
+
+.section:hover {
+	transform: translateY(-5px);
+	box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+}
+
+.section h2 {
+	font-weight: bold;
+	margin-bottom: 15px;
+	font-size: 1.5em;
+}
+
+.section p {
+	color: #6c757d;
+	margin-bottom: 10px;
+	font-size: 1.2em;
+}
+
+/* Modify the skills section */
+
+.skill-section {
+	background-color: #f8f9fa;
+	border-radius: 10px;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	transition: transform 0.3s;
+	margin-bottom: 30px;
+	padding: 30px;
+}
+
+.skill-section:hover {
+	transform: translateY(-5px);
+	box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+}
+
+.skill-section h2 {
+	font-weight: bold;
+	margin-bottom: 15px;
+	font-size: 1.5em;
+	color: #343a40;
+}
+
+.skill-list {
+	list-style: none;
+	padding: 0;
+}
+
+.skill-list li {
+	font-size: 1.1em;
+	margin-bottom: 10px;
+}
+
+.skill-list li i {
+	margin-right: 10px;
+	font-size: 1.2em;
+	color: #007bff;
+}
+
+.skill-list li span {
+	font-weight: bold;
+}
+
+.skill-footer {
+	font-size: 0.9em;
+	color: #6c757d;
+	margin-top: 10px;
+	padding-left: 20px;
+}
 
 /* Modified card styles */
 .card {
