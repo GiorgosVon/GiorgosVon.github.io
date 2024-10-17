@@ -1,330 +1,287 @@
 <!DOCTYPE html>
 <html lang="eng">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Giorgos Vontzalidis</title>
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-      crossorigin="anonymous"
-    />
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="stylesheet" href="style.css" />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.4.2/css/all.css"
-      integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns"
-      crossorigin="anonymous"
-    />
-    <script>
-      function myFunction() {
-        "card-front".toggleClass("rotate-card-front");
-        "card-front".toggleClass("rotate-card-back");
-      }
-    </script>
-  </head>
 
-  <!-- body section -->
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Giorgos Vontzalidis</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css"
+    integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous" />
+  <script>
+    function myFunction() {
+      "card-front".toggleClass("rotate-card-front");
+      "card-front".toggleClass("rotate-card-back");
+    }
+  </script>
+</head>
+
+<!-- body section -->
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Aboutme">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Education">Experience-Education</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Skills">Skills</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- background img - particles -->
+  <div id="wrapper">
+    <div id="particles-js"></div>
+    <div class="welcome-text">
+      <h3 class="font-weight-light">
+        Hi, I am <br />Giorgos<br />
+        Vontzalidis.
+      </h3>
+      <br />
+      <h4 class="font-weight-light">Welcome to my Page!</h4>
+    </div>
+  </div>
+
+  <script src="particles.js"></script>
+  <script src="app.js"></script>
+
+  <div class="container-fluid">
+    <hr class="my-4" />
+  </div>
+
+  <div class="container-fluid text-center about_me" id="Aboutme">
+    <h4>About Me</h4>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <hr class="my-4" />
+      </div>
+      <div class="col">
+        <hr class="my-4" />
+      </div>
+      <div class="col">
+        <hr class="my-4" />
+      </div>
+    </div>
+  </div>
+
+  <!-- About me -->
+  <div class="padding">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="card text-center">
+            <p class="lead card-header">My Links</p>
+            <img src="images/me.jpg" class="card-img-top" />
+            <div class="card-body social">
+              <h3>Giorgos Vontzalidis</h3>
+              <a href="https://www.linkedin.com/in/george-vontzalidis-1168361b5/"><i class="fab fa-linkedin-in"></i></a>
+              <a href="https://github.com/GiorgosVon"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col text-center">
+          <h2>A few words About me</h2>
+          <p class="lead">
+            Greetings! I'm George a results-driven Software Engineer-Developer. I find great satisfaction in continually
+            learning and immersing myself in the latest technologies, and I'm excited about advancing my software
+            development skills. My main area of interest is web and app development. I am thrilled about learning new
+            technologies and my goal is to be part in diverse projects, honing my skills and expanding my expertise. As
+            a hobby I like playing and making videogames!
+          </p>
+        </div>
+        <div class="col text-center">
+          <h3>Here you can download my CV</h3>
+          <br /><br />
+          <a href="George Vontzalidis CV.pdf" download>
+            <img src="images/MyResumePhoto.png" alt="Your CV Picture" class="img-fluid cv-image" />
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- fixed image -->
+  <div id="fixed"></div>
+
+  <!-- jumbotron -->
+
+  <div class="jumbotron" id="Education">
+    <h3 class="display-4">Experience & Education</h3>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <hr class="my-4" />
+      </div>
+      <div class="col">
+        <hr class="my-4" />
+      </div>
+      <div class="col">
+        <hr class="my-4" />
+      </div>
+    </div>
+  </div>
+
+  <div class="container mt-5">
+    <div class="row">
+      <!-- Work Experience Section -->
+      <div class="col-md-4">
+        <div class="section">
+          <h2>Work Experience</h2>
+          <p>Software Engineer - Developer</p>
+          <p>Human Asset</p>
+          <p>Duration: Jul 2023 - Currently</p>
+          <p>
+            Working with Articulate Storyline, AI LLM development, Web
+            Development and Unity.
+          </p>
+        </div>
+      </div>
+
+      <!-- Education Section -->
+      <div class="col-md-4">
+        <div class="section">
+          <h2>Education</h2>
+          <p>Masters in Computer Engineering & Informatics</p>
+          <p>University of Patras</p>
+          <p>Graduation Year: 2023</p>
+        </div>
+      </div>
+
+      <!-- Foreign Languages Section -->
+      <div class="col-md-4">
+        <div class="section">
+          <h2>Foreign Languages</h2>
+          <p>English</p>
+          <p>Certificate of Proficiency (ECPE)</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Skills Header -->
+  <div class="jumbotron jumbotron2">
+    <h3 class="display-4">Skills</h3>
+  </div>
+
+  <!-- fixed image -->
+  <div id="coding"></div>
 
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNav"
-        aria-controls="navbarNav"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#"
-              >Home <span class="sr-only">(current)</span></a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#Aboutme">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#Education">Experience-Education</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#Skills">Skills</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-
-    <!-- background img - particles -->
-    <div id="wrapper">
-      <div id="particles-js"></div>
-      <div class="welcome-text">
-        <h3 class="font-weight-light">
-          Hi, I am <br />Giorgos<br />
-          Vontzalidis.
-        </h3>
-        <br />
-        <h4 class="font-weight-light">Welcome to my Page!</h4>
-      </div>
-    </div>
-
-    <script src="particles.js"></script>
-    <script src="app.js"></script>
-
-    <div class="container-fluid">
-      <hr class="my-4" />
-    </div>
-
-    <div class="container-fluid text-center about_me" id="Aboutme">
-      <h4>About Me</h4>
-    </div>
-
-    <div class="container">
+    <div class="container mt-5" id="Skills">
       <div class="row">
-        <div class="col">
-          <hr class="my-4" />
+        <!-- Coding Skills Section -->
+        <div class="col-md-4">
+          <div class="skill-section">
+            <h2>Coding</h2>
+            <ul class="skill-list">
+              <li><i class="fas fa-code"></i><span>C#</span></li>
+              <div class="skill-footer">Proficiency Level: Intermediate</div>
+              <li><i class="fas fa-code"></i><span>Python</span></li>
+              <div class="skill-footer">Proficiency Level: Intermediate</div>
+              <li><i class="fas fa-code"></i><span>Javacript</span></li>
+              <div class="skill-footer">Proficiency Level: Intermediate</div>
+              <li>
+                <i class="fas fa-code"></i><span>Web Technologies (Html, css, React, NodeJS, express)</span>
+              </li>
+              <div class="skill-footer">Proficiency Level: Intermediate</div>
+              <li><i class="fas fa-code"></i><span>C++</span></li>
+              <div class="skill-footer">Proficiency Level: Beginner</div>
+            </ul>
+          </div>
         </div>
-        <div class="col">
-          <hr class="my-4" />
+
+        <!-- Software Section -->
+        <div class="col-md-4">
+          <div class="skill-section">
+            <h2>Software</h2>
+            <ul class="skill-list">
+              <li><i class="fas fa-cogs"></i><span>Ubuntu</span></li>
+              <div class="skill-footer">Proficiency Level: Intermediate</div>
+              <li><i class="fas fa-cogs"></i><span>Unreal Engine</span></li>
+              <div class="skill-footer">Proficiency Level: Intermediate</div>
+              <li><i class="fas fa-cogs"></i><span>Unity</span></li>
+              <div class="skill-footer">Proficiency Level: Intermediate</div>
+              <li><i class="fas fa-cogs"></i><span>Blender</span></li>
+              <div class="skill-footer">Proficiency Level: Intermediate</div>
+              <li><i class="fas fa-cogs"></i><span>Adobe Photoshop</span></li>
+              <div class="skill-footer">Proficiency Level: Advanced</div>
+            </ul>
+          </div>
         </div>
-        <div class="col">
-          <hr class="my-4" />
+
+        <!-- Other Skills Section -->
+        <div class="col-md-4">
+          <div class="skill-section">
+            <h2>Other Skills</h2>
+            <ul class="skill-list">
+              <li><i class="fas fa-toolbox"></i><span>Teamwork</span></li>
+              <li>
+                <i class="fas fa-toolbox"></i><span>Time Management</span>
+              </li>
+              <li>
+                <i class="fas fa-toolbox"></i><span>Problem Solving</span>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
 
-    <!-- About me -->
-    <div class="padding">
+    <div class="contact-section">
       <div class="container">
+        <h2 class="contact-heading">Contact Me</h2>
+
         <div class="row">
-          <div class="col">
-            <div class="card text-center">
-              <p class="lead card-header">My Links</p>
-              <img src="images/me.jpg" class="card-img-top" />
-              <div class="card-body social">
-                <h3>Giorgos Vontzalidis</h3>
-                <a
-                  href="https://www.linkedin.com/in/george-vontzalidis-1168361b5/"
-                  ><i class="fab fa-linkedin-in"></i
-                ></a>
-                <a href="https://github.com/GiorgosVon"
-                  ><i class="fab fa-github"></i
-                ></a>
-              </div>
-            </div>
+          <!-- Email Section -->
+          <div class="col-md-4 contact-item">
+            <i class="fas fa-envelope"></i>
+            <a href="mailto:gvontzalidis@hotmail.com">gvontzalidis@hotmail.com</a>
           </div>
-          <div class="col text-center">
-            <h2>A few words About me</h2>
-            <p class="lead">
-              Hello, My name is George Vontzalidis. I was born at Karlovasi of
-              Samos in 1997 and I currently live in Greece. At the moment I am
-              working as Software Engineer and Developer in Human Asset. I find
-              great satisfaction in continually learning and immersing myself in
-              the latest technologies, and I'm excited about advancing my
-              software development skills. I have a particular fondness for web
-              development, finding joy in crafting dynamic and interactive web
-              applications. As a hobby in my free time, I enjoy making
-              videogames!
-            </p>
+
+          <!-- Github Section -->
+          <div class="col-md-4 contact-item">
+            <i class="fab fa-github"></i>
+            <a href="https://github.com/GiorgosVon" target="_blank">GitHub</a>
           </div>
-          <div class="col text-center">
-            <h3>Here you can download my CV</h3>
-            <br /><br />
-            <a href="George Vontzalidis CV.pdf" download>
-              <img
-                src="images/MyResumePhoto.png"
-                alt="Your CV Picture"
-                class="img-fluid cv-image"
-              />
-            </a>
+
+          <!-- Linkedin Section -->
+          <div class="col-md-4 contact-item">
+            <i class="fab fa-linkedin"></i>
+            <a href="https://www.linkedin.com/in/george-vontzalidis-1168361b5/" target="_blank">LinkedIn</a>
           </div>
         </div>
       </div>
     </div>
-
-    <!-- fixed image -->
-    <div id="fixed"></div>
-
-    <!-- jumbotron -->
-
-    <div class="jumbotron" id="Education">
-      <h3 class="display-4">Experience & Education</h3>
-    </div>
-
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          <hr class="my-4" />
-        </div>
-        <div class="col">
-          <hr class="my-4" />
-        </div>
-        <div class="col">
-          <hr class="my-4" />
-        </div>
-      </div>
-    </div>
-
-    <div class="container mt-5">
-      <div class="row">
-        <!-- Work Experience Section -->
-        <div class="col-md-4">
-          <div class="section">
-            <h2>Work Experience</h2>
-            <p>Software Engineer - Developer</p>
-            <p>Human Asset</p>
-            <p>Duration: Jul 2023 - Currently</p>
-            <p>
-              Working with Articulate Storyline, AI LLM development, Web
-              Development and Unity.
-            </p>
-          </div>
-        </div>
-
-        <!-- Education Section -->
-        <div class="col-md-4">
-          <div class="section">
-            <h2>Education</h2>
-            <p>Masters in Computer Engineering & Informatics</p>
-            <p>University of Patras</p>
-            <p>Graduation Year: 2023</p>
-          </div>
-        </div>
-
-        <!-- Foreign Languages Section -->
-        <div class="col-md-4">
-          <div class="section">
-            <h2>Foreign Languages</h2>
-            <p>English</p>
-            <p>Certificate of Proficiency (ECPE)</p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Skills Header -->
-    <div class="jumbotron jumbotron2">
-      <h3 class="display-4">Skills</h3>
-    </div>
-
-    <!-- fixed image -->
-    <div id="coding"></div>
-
-    <body>
-      <div class="container mt-5" id="Skills">
-        <div class="row">
-          <!-- Coding Skills Section -->
-          <div class="col-md-4">
-            <div class="skill-section">
-              <h2>Coding</h2>
-              <ul class="skill-list">
-                <li><i class="fas fa-code"></i><span>C#</span></li>
-                <div class="skill-footer">Proficiency Level: Intermediate</div>
-                <li><i class="fas fa-code"></i><span>Python</span></li>
-                <div class="skill-footer">Proficiency Level: Intermediate</div>
-                <li><i class="fas fa-code"></i><span>Javacript</span></li>
-                <div class="skill-footer">Proficiency Level: Intermediate</div>
-                <li>
-                  <i class="fas fa-code"></i
-                  ><span
-                    >Web Technologies (Html, css, React, NodeJS, express)</span
-                  >
-                </li>
-                <div class="skill-footer">Proficiency Level: Intermediate</div>
-                <li><i class="fas fa-code"></i><span>C++</span></li>
-                <div class="skill-footer">Proficiency Level: Beginner</div>
-              </ul>
-            </div>
-          </div>
-
-          <!-- Software Section -->
-          <div class="col-md-4">
-            <div class="skill-section">
-              <h2>Software</h2>
-              <ul class="skill-list">
-                <li><i class="fas fa-cogs"></i><span>Ubuntu</span></li>
-                <div class="skill-footer">Proficiency Level: Intermediate</div>
-                <li><i class="fas fa-cogs"></i><span>Unreal Engine</span></li>
-                <div class="skill-footer">Proficiency Level: Intermediate</div>
-                <li><i class="fas fa-cogs"></i><span>Unity</span></li>
-                <div class="skill-footer">Proficiency Level: Intermediate</div>
-                <li><i class="fas fa-cogs"></i><span>Blender</span></li>
-                <div class="skill-footer">Proficiency Level: Intermediate</div>
-                <li><i class="fas fa-cogs"></i><span>Adobe Photoshop</span></li>
-                <div class="skill-footer">Proficiency Level: Advanced</div>
-              </ul>
-            </div>
-          </div>
-
-          <!-- Other Skills Section -->
-          <div class="col-md-4">
-            <div class="skill-section">
-              <h2>Other Skills</h2>
-              <ul class="skill-list">
-                <li><i class="fas fa-toolbox"></i><span>Teamwork</span></li>
-                <li>
-                  <i class="fas fa-toolbox"></i><span>Time Management</span>
-                </li>
-                <li>
-                  <i class="fas fa-toolbox"></i><span>Problem Solving</span>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="contact-section">
-        <div class="container">
-          <h2 class="contact-heading">Contact Me</h2>
-
-          <div class="row">
-            <!-- Email Section -->
-            <div class="col-md-4 contact-item">
-              <i class="fas fa-envelope"></i>
-              <a href="mailto:gvontzalidis@hotmail.com"
-                >gvontzalidis@hotmail.com</a
-              >
-            </div>
-
-            <!-- Github Section -->
-            <div class="col-md-4 contact-item">
-              <i class="fab fa-github"></i>
-              <a href="https://github.com/GiorgosVon" target="_blank">GitHub</a>
-            </div>
-
-            <!-- Linkedin Section -->
-            <div class="col-md-4 contact-item">
-              <i class="fab fa-linkedin"></i>
-              <a
-                href="https://www.linkedin.com/in/george-vontzalidis-1168361b5/"
-                target="_blank"
-                >LinkedIn</a
-              >
-            </div>
-          </div>
-        </div>
-      </div>
-    </body>
   </body>
+</body>
+
 </html>
